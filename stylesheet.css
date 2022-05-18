@@ -1,25 +1,71 @@
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
 
-a:hover, a:active {
-    background-color: rebeccapurple;
-}
-
-.main {
-    margin: 1em;
-}
-
-.headertext h1 {
-    height: 2em;
-    width: auto;
-    margin: auto;
-    border: 0.1em;
-    border-style: solid;
-    border-color: teal;
-}
+		*{	
+			box-sizing : border-box;
+		}
+	body
+		{
+			background-color : #00FFF7;
+			margin : 0;
+			color: white;
+			font-size: 24px;
+			font-family: Helvetica;
+		}	
+	.header{
+			background-color : #ECFF00;
+			padding : 20px;
+			text-align : center;
+			font-size: 25px;
+		}
+	.topbar
+		{
+			overflow: hidden;
+			background-color: #FF0000;
+			font-size: 18px;
+		}
+	.topbar a 
+		{
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 20px 50px;
+			text-decoration: none;
+		}
+	.topbar a:hover
+		{
+			background-color: #FF00F3;
+			color: black;
+		}
+	hr.line 
+		{
+			border: 5px solid red;
+		}
+	.sideColumn 
+		{
+			background-color : #0CFF00;
+			float: left;
+			width: 15%;
+			height: 5000px;
+			padding: 15px;
+		}
+	.contentColumn 
+		{
+			background-color : #0400FF;
+			float: left;
+			width: 70%;
+			height: 5000px;
+			padding: 15px;
+		}
+	.row:after 
+		{
+			content: "";
+			display: table;
+			clear: both;
+	@media screen and (max-width:600px) 
+		{
+			.column 
+				{
+					width: 100%;
+				}
+		}
+} 
