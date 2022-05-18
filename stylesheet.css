@@ -1,0 +1,25 @@
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: rebeccapurple;
+}
+
+.main {
+    margin: 1em;
+}
+
+.headertext h1 {
+    height: 2em;
+    width: auto;
+    margin: auto;
+    border: 0.1em;
+    border-style: solid;
+    border-color: teal;
+}
